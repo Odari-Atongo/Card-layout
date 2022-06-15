@@ -110,17 +110,17 @@ header:hover {
     "  box1 box1 box2"
     "  box3  box4 box4"
     "  box3  box5  box5";
-    grid-template-columns: 230px ;
-  grid-template-rows:220px;
+    
+  grid-template-columns: 220px 160px 240px;
+grid-template-rows: 180px 0px 70px;
   grid-gap: 10px;
   background-color: var(--primary-clr-dark);
-  padding: 10px;
+  padding: 7px;
   margin: 2em 27em;
 }
 
 .box1 {
   grid-area: box1;
-  height: 100%;
 }
 .box2 {
   grid-area: box2;
